@@ -23,7 +23,7 @@ echo.
 echo Do you want to install it now?
 choice /c:YN
 if %ERRORLEVEL%==1 (
-	InstallIPSW.bat "%cd%\iPad\Boot322.ipsw" "%cd%\iPad\Install322.ipsw"
+	InstallIPSW.bat %cd%\iPad\Boot322.ipsw %cd%\iPad\Install322.ipsw
 )
 exit
 echo.
